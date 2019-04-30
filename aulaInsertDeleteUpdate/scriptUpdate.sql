@@ -8,7 +8,7 @@
 
 
 -- aqui eu vou atualizar a tupla 7 e colocar como dono Jaime
-UPDATE farmacias SET dono = 'Jaime' WHERE id = 7 ;
+UPDATE farmacias SET dono = 'Jaime' WHERE cnpj = 7 ;
 
 -- sempre é uma pratica atualizar pela chave primaria
 -- porque ela é única
@@ -31,4 +31,4 @@ UPDATE farmacias SET dono = 'Jaime' WHERE nome = 'droga rapida';
 
 -- eu posso também atualizar dois campos...
 
-UPDATE farmacias SET dono= 'Danilo', nome = 'Farmacia do Danilo' WHERE id = 1 ;
+UPDATE farmacias SET dono= 'Danilo', nome = 'Farmacia do Danilo' WHERE cnpj = 1 ;
