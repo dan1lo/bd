@@ -32,3 +32,4 @@ UPDATE farmacias SET dono = 'Jaime' WHERE nome = 'droga rapida';
 -- eu posso também atualizar dois campos...
 
 UPDATE farmacias SET dono= 'Danilo', nome = 'Farmacia do Danilo' WHERE cnpj = 1 ;
+--
