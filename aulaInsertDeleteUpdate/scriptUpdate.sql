@@ -27,3 +27,8 @@ UPDATE farmacias SET dono = 'Jaime' WHERE nome = 'droga rapida';
 -- UPDATE farmacias set dono ='danilo';
 -- isso vai fazer que todas as tabelas no banco tenham clausulas where 
 -- ou seja, vai dar m3rda :) 
+
+
+-- eu posso também atualizar dois campos...
+
+UPDATE farmacias SET dono= 'Danilo', nome = 'Farmacia do Danilo' WHERE id = 1 ;
