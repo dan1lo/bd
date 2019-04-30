@@ -2,6 +2,8 @@
 -- teste cada exemplo por vez no query tools do pgadmin
 -- para vermos se os exemplos foram cadastrados devemos usar o comando select * from tabela, neste caso select * from farmacias
 
+-- sintaxe INSERT INTO nomedatabela(campos1,campo2...) VALUES (campo1valor,campo2valor...) ;
+
 -- exemplo bem comum
 insert into farmacias(cnpj,dono, nome) values (1,'danilo', 'pague menos');
 -- no exemplo  a seguir omitimos os campos
