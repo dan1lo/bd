@@ -1,10 +1,22 @@
 -- salve o engano, todos os comandos estão em ordem dos slide.
-
+--LEIA OS COMENTARIO
 
 --Select – Estrutura básica
 
+-- --------> ATENÇÃO LER
+
+--NAO SEI O MOTIVO MAS AQUI EM CASA BUGOU OS COMADOS
+-- PORTANTO SE DER ERRO TIPO 
+
+--ERROR: syntax error at or near 
+--"SELECT " LINE 1: SELECT * FROM enfeites WHERE tamanho = 5;
+-- ^ SQL state: 42601 Character: 1
+
+-- É SÓ COPIAR O COMANDO E COLAR NO NAVEGADOR, COPIA NOVAMENTE E COLA NO POSTGRE QUE VAI FUNCIONAR
+-- TODOS OS COMANDOS FORAM TESTADOS E FUNCIONAM PERFEITAMENTE 
+--
 -- busca tudo na tabela
-SELECT * FROM ENFEITES
+SELECT * FROM enfeites;
 -- busca somente as colunas nome e cor
 
 SELECT nome, cor FROM enfeites;
